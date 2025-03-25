@@ -1,0 +1,30 @@
+1. Explique, com suas palavras, o que é machine learning?
+Bom, eu tô começando a entender o que é todo esse universo de Machine Learning, Inteligência Artificial e cada vez aprendendo mais através de vídeos e cursos gratuitos disponíveis na internet, mas mesmo sem saber tanto ainda, é bem massa! Tipo, pelo que saquei até agora, machine learning é como ensinar um computador a aprender sozinho, em vez de só programar tudo direto. Ele pega um monte de dados, analisa e meio que descobre padrões pra resolver problemas ou fazer previsões de dados que nunca nem viu antes. Parece tipo mágica, mas tem toda uma ciência por trás. Tô super empolgado em aprender mais e entender como isso funciona de verdade. Sério, tem um monte de áreas em que dá pra usar, e eu quero me aprofundar pra descobrir tudo! Além disso, estou também realizando uma competição sobre conteúdos de machine learning para ensinar outras pessoas e premiar elas com recompensas reais, isso tudo faz parte de uma ideia de startup minha hehe 😁
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
+Pelo que pude entender nesse meio tempo, há 3 conjuntos que são fundamentais no processo de desenvolvimento de modelos de machine learning e são separados em:
+- Conjunto de Treinamento: Usado para ensinar o modelo, fornecendo dados com respostas conhecidas (ou etiquetas). O modelo aprende a identificar padrões e ajustar parâmetros com base nele.
+- Conjunto de Validação: Serve para ajustar o modelo, como tunar hiperparâmetros. Ele avalia o desempenho do modelo durante o treinamento, mas não participa diretamente do ajuste de pesos.
+- Conjunto de Teste: Utilizado apenas no final do processo, para avaliar a performance do modelo em novos dados não vistos, simulando o cenário do mundo real.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento.
+Bom, como já tenho alguma experiência trabalhando com dados, imagino que "a resposta certa" seria: Depende. Além de que também com toda certeza haja várias formas de lidar com problemas desse tipo, mas imaginando que eu saiba resolver estes problemas sem me limitar ao meu atual conhecimento, dentro de uma situação hipotética de ML, podemos resolver com:
+- Remoção de Linhas/Colunas: Remove registros incompletos, mas isso só funciona bem se a quantidade de dados ausentes for pequena.
+- Imputação: Preenche valores ausentes com a média, mediana ou modo das amostras.
+- Modelagem: Utiliza algoritmos preditivos para estimar os valores ausentes.
+- Sinalização: Marca valores ausentes como uma categoria separada (imagino que isso pode ser útil para modelos que lidam com categorias).
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
+De forma resumida, uma matriz de confusão é uma ferramenta usada para medir o desempenho de um modelo de classificação que pode calcular a precisão, o recall e o F1-score do modelo criado.
+A matriz confusão parece ser organizada com os resultados em quatro categorias principais:
+- True Positives (TP): Previsões corretas para a classe positiva.
+- True Negatives (TN): Previsões corretas para a classe negativa.
+- False Positives (FP): Erros onde a classe negativa foi prevista como positiva.
+- False Negatives (FN): Erros onde a classe positiva foi prevista como negativa.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) você acha mais interessante aplicar algoritmos de machine learning?
+Bom, eu sou da área da saúde e também sou um pesquisador dedicado à descoberta da assinatura genética da endometriose, condição que impacta milhões de mulheres ao redor do mundo com dores fisiológicas e psicológicas. Minha pesquisa tem o objetivo de desvendar a assinatura genética e transformar o diagnóstico e o tratamento dessa doença bem mais viáveis e eficazes, trazendo avanços reais para a saúde feminina.
+
+Vejo o machine learning como uma ferramenta essencial no meu trabalho. Ele me permitirá processar vastos volumes de dados genômicos, identificar biomarcadores com precisão, prever riscos e, principalmente, personalizar tratamentos de acordo com o perfil genético de cada paciente ou quem sabe até mais do que isso! Com essa abordagem, podemos desenvolver diagnósticos muito mais rápidos e eficazes, sem a necessidade de procedimentos invasivos, como a laparoscopia. Além disso, o uso de algoritmos permite descobrir novos alvos terapêuticos, o que abre portas para tratamentos mais inovadores e direcionados.
+
+Acredito que essa o Machine Learning aplicado a toda e qualquer área produz resultados incríveis, e imagino que não seja diferente com minha pesquisa, que tem o potencial de redefinir os padrões de cuidado na endometriose, melhorando significativamente a qualidade de vida de milhões de mulheres que convivem com essa condição. Por isso, estou determinado a explorar o máximo que essa tecnologia pode oferecer para revolucionar a forma como entendemos e combatemos a endometriose.
